@@ -81,3 +81,23 @@ for better analysis. Create your own features if required. Be highly experimenta
 4. Dimensional reduction: perform dimensional reduction on the data.
 5. Classifier: Design and train a best fit SVM classier using dimensionally reduced attributes.
 6. Conclusion: Showcase key pointer on how dimensional reduction helped in this case
+
+## • DOMAIN: Sports management(part 4) 
+## CONTEXT: 
+Company X is a sports management company for international cricket. 
+## DATA DESCRIPTION: 
+The data is collected belongs to batsman from IPL series conducted so far. Attribute Information: 
+1. Runs: Runs score by the batsman
+2. Ave: Average runs scored by the batsman per match
+3. SR: strike rate of the batsman
+4. Fours: number of boundary/four scored
+5. Six: number of boundary/six scored
+6. HF: number of half centuries scored so far
+## PROJECT OBJECTIVE:
+Goal is to build a data driven batsman ranking model for the sports management company to make business decisions.
+Steps and tasks: 
+1. EDA and visualisation: Create a detailed performance report using univariate, bi-variate and multivariate EDA techniques. Find out all possible hidden 
+patterns by using all possible methods.
+2. Build a data driven model to rank all the players in the dataset using all or the most important performance features
+
+
