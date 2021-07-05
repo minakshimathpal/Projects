@@ -6,7 +6,7 @@ Dataset - The data concerns city-cycle fuel consumption in miles per gallon, to 
 SVM, PCA, Classification, Python
 
 ## DOMAIN: 
-Automobile 
+Automobile(part 1) 
 ## CONTEXT: The data concerns city-cycle fuel consumption in miles per gallon, to be predicted in terms of 3 multivalued discrete and 5 
 continuous attributes 
 ## DATA DESCRIPTION: The data concerns city-cycle fuel consumption in miles per gallon 
@@ -47,3 +47,37 @@ clustering? Mention how it impacts performance and prediction.
 6. Improvisation: 
 • Detailed suggestions or improvements or on quality, quantity, variety, velocity, veracity etc. on the data points collected by the company to 
 perform a better data analysis in future
+
+## • DOMAIN: Manufacturing(part 2)
+• CONTEXT: Company X curates and packages wine across various vineyards spread throughout the country.
+• DATA DESCRIPTION: The data concerns the chemical composition of the wine and its respective quality.
+Attribute Information: 
+1. A, B, C, D: specific chemical composition measure of the wine
+2. Quality: quality of wine [ Low and High ]
+• PROJECT OBJECTIVE: Goal is to build a synthetic data generation model using the existing data provided by the company.
+Steps and tasks: 
+1. Design a synthetic data generation model which can impute values [Attribute: Quality] wherever empty the company has missed recording the data.
+
+## DOMAIN: Automobile (part 3)
+## CONTEXT: 
+The purpose is to classify a given silhouette as one of three types of vehicle, using a set of features extracted from the silhouette. 
+The vehicle may be viewed from one of many different angles.
+## DATA DESCRIPTION: 
+The data contains features extracted from the silhouette of vehicles in different angles. Four "Corgie" model vehicles 
+were used for the experiment: a double decker bus, Cheverolet van, Saab 9000 and an Opel Manta 400 cars. This particular combination of 
+vehicles was chosen with the expectation that the bus, van and either one of the cars would be readily distinguishable, but it would be more 
+difficult to distinguish between the cars.
+• All the features are numeric i.e. geometric features extracted from the silhouette.
+## PROJECT OBJECTIVE: 
+Apply dimensionality reduction technique – PCA and train a model using principal components instead of training the 
+model using just the raw data.
+Steps and tasks: 
+1. Data: Import, clean and pre-process the data
+2. EDA and visualisation: Create a detailed performance report using univariate, bi-variate and multivariate EDA techniques. Find out all possible hidden 
+patterns by using all possible methods.
+For example: Use your best analytical approach to build this report. Even you can mix match columns to create new columns which can be used 
+for better analysis. Create your own features if required. Be highly experimental and analytical here to find hidden patterns. 
+3. Classifier: Design and train a best fit SVM classier using all the data attributes.
+4. Dimensional reduction: perform dimensional reduction on the data.
+5. Classifier: Design and train a best fit SVM classier using dimensionally reduced attributes.
+6. Conclusion: Showcase key pointer on how dimensional reduction helped in this case
